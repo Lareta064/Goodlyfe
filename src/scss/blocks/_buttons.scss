@@ -6,7 +6,7 @@
 	line-height: remy(68);
 	border-radius: remy(34);
 	background-color: var(--ac);
-	font-family: inherit;
+	
 	font-size: 1rem;
 	font-weight: 600;
 	text-align: center;
@@ -20,11 +20,7 @@
 		height: remy(56);
 		line-height: remy(56);
 	}
-	@media (max-width: remy(767)) {
-		width: 100%;
-		max-width: remy(360);
-	}
-
+	
 }
 .btn:hover{
 	background-color: var(--darkAc);
