@@ -122,11 +122,11 @@ button,
 input,
 button:focus, 
 input:focus {
+  font-family: inherit;
   border: none;
   outline: none;
   background: none;
   padding: 0;
- 
 }
 
 .d-flex{
