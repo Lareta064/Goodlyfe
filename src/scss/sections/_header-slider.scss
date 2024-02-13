@@ -23,7 +23,7 @@
 .header-content__title{
 	position: absolute;
 	z-index: 3;
-	top: 50%;
+	top: 52%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
@@ -39,7 +39,7 @@
 
 	@media (max-width: remy(767)) {
 		top: 42%;
-		.btn {min-width: remy(208); width: fit-content;}
+		.btn {min-width: remy(208); width: fit-content; }
 		.h1{margin-bottom: remy(15);}
 	}
 }

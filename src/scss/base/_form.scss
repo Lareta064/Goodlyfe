@@ -23,17 +23,13 @@
 
 	.search-btn,
 	.reset-btn {
+		width: remy(35);
+		height: remy(35);
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
 		z-index: 2;
-		width: remy(35);
-		height: remy(35);
-		right: remy(8);
-	
-		&>* {
-			vertical-align: middle;
-		}
+		&>*{vertical-align: middle;}
 	}
 
 	.search-btn{

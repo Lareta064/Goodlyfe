@@ -133,12 +133,3 @@ input:focus {
   display: flex;
   align-items: center;
 }
-.container{
-  width: 100%;
-  max-width: remy(1191);
-  margin: 0 auto;
-  padding-inline: remy(48);
-  @media (max-width: remy(767)) {
-    padding-inline: remy(16);
-  }
-}
