@@ -50,6 +50,14 @@ document.addEventListener("DOMContentLoaded", function () {
 			clickable: true,
 		},
 	});
-
-
+	/*CTASLIDER */
+	var headerSwiper = new Swiper(".cta-slider", {
+		loop: true,
+		speed: 1000,
+		effect: "fade",
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+	});
 })
