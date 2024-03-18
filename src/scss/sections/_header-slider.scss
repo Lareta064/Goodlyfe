@@ -1,4 +1,4 @@
-.slider-content {
+.header-content{
 	height: calc(100vh - remy(110));
 	min-height: remy(800);
 	max-height: remy(1100);
@@ -20,7 +20,7 @@
 	}
 
 }
-.slider-content__title{
+.header-content__title{
 	position: absolute;
 	z-index: 3;
 	top: 52%;
@@ -28,15 +28,9 @@
 	transform: translate(-50%, -50%);
 	text-align: center;
 	color: white;
-	width: 100%;
-	padding-left: 1rem;
-	padding-right: 1rem;
 	.h1{
 		margin-bottom: remy(23);
 		width: 15ch;
-		margin-left: auto;
-		margin-right: auto;
-		
 	}
 	.btn{
 		font-family: 'OpenSans';
@@ -68,7 +62,7 @@
 	}
 	
 }
-.swiper{
+.header-slider{
 	--swiper-pagination-bottom: 60px;
 	height: 100%;
 

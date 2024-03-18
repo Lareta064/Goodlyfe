@@ -3,12 +3,7 @@
 	line-height: 1.1;
 	font-weight: 700;
 }
-.h2{
-	font-size: remy(60);
-	@media (max-width: 767px) {
-		font-size: remy(42);
-	}
-}
+.h2{font-size: remy(60);}
 
 .h3, .h5 {
 	font-size: remy(48);
@@ -17,10 +12,7 @@
 }
 .h4 {font-size: remy(40); line-height: 1.5;}
 .h5 {font-size: remy(38);}
-.subtitle{
-	font-size: remy(17);
-	font-family: 'OpenSans';
-}
+
 .accent-span {
 	color: var(--subAc) !important;
 }
