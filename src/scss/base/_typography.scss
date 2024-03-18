@@ -12,17 +12,26 @@
 }
 .h4 {font-size: remy(40); line-height: 1.5;}
 .h5 {font-size: remy(38);}
-
+.subtitle{
+	font-size: remy(17);
+	line-height: 1.35;
+	font-family: 'OpenSans';
+	font-weight: 600;
+}
 .accent-span {
 	color: var(--subAc) !important;
 }
 .txt-accent{color: var(--ac) !important;}
 @media (max-width: remy(1199)) {
 	.h1 {font-size: remy(54);}
-		
-	
+	.h2 {font-size: remy(52);}
+}
+@media (max-width: remy(991)) {
+.h2 {font-size: remy(48);}
 }
 @media (max-width: remy(767)) {
 	.h1{font-size: remy(32);}
+	.h2{font-size: remy(42);}
 	.h4{line-height: 1.2;}
+	.subtitle{font-size: remy(16);}
 }
