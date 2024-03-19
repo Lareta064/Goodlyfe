@@ -23,4 +23,12 @@
 		margin-bottom: remy(16);
 	}
 	.swiper-pagination{bottom: remy(26)}
+
+	@media (max-width: 767px) {
+		.slider-content{
+			height: auto;
+	   		min-height: remy(443);
+		}
+	  
+	}
 }
