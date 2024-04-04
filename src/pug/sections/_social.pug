@@ -1,0 +1,16 @@
+mixin socialItem(className, iconSrc)
+	//=======single icon =======
+	a.social-item(href="#!")
+		svg(class="svg-"+className)
+			use(href="./img/"+iconSrc)
+		
+//========= SOCIAL =======
+section.social
+	h2.h4.txt-accent Social
+	
+	//========== social-content ========
+	.social-content.d-flex
+		+socialItem('facebook', 'sprite/brands.svg#facebook-f')
+		+socialItem('youtube', 'spriteSvg.svg#svg-youtube')
+		+socialItem('instagram', 'sprite/brands.svg#instagram')
+		
