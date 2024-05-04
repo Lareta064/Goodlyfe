@@ -18,8 +18,16 @@
 	font-family: 'OpenSans';
 	font-weight: 600;
 }
+.block-title{
+	font-size: remy(20);
+	line-height: 1.5;
+	font-family: 'Manrope';
+	font-weight: 500;
+	color: white;
+	margin-bottom: remy(24);
+}
 .accent-span {
-	color: var(--subAc) !important;
+	color: var(--subAc);
 }
 .txt-accent{color: var(--ac) !important;}
 @media (max-width: remy(1199)) {

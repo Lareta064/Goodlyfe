@@ -83,12 +83,14 @@
     padding: 0;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    color: $sec1;
     -webkit-font-smoothing: antialiased;
     background-color: white;
   }
  .lock{
     overflow: hidden;
  }
+ a{display: inline-block;}
   a,
   a:hover {
 	  text-decoration: none;
